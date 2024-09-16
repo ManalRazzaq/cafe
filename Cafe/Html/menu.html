@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Cafe</title>
+
+    <!-- Favicon -->
+    <!-- <<<<<<<<<<<<<<<<< FAVICONNNNN>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <link rel="icon" href="../Images/flat-icon.png" type="image/x-icon">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- <<<<<<<<<<<<<<<<<<<<<CSS STYLE SHEETS>>>>>>>>>>>>>>>>>>>>> -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- <<<<<<<<<<Bootstrap CSS>>>>>>>>>>>> -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <!-- <<<<<<<<<<<<------------LIBRARIESS-----------:>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" href="../lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Preloader-->
+  <div id="preloader">
+    <div class="caviar-load"></div>
+    <div class="preload-icons">
+        <img class="preload-1" src="../Images/preloader1.png" alt="">
+        <img class="preload-2" src="../Images/dish.png" alt="">
+        <img class="preload-3" src="../Images/preloader=2.png" alt="">
+    </div>
+</div> 
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small class="fcolor"><i class="fa fa-map-marker-alt me-2"></i>8th floor, 379 Hudson St, abc, NY 14418</small>
+                <small class="ms-4 fcolor"><i class="fa fa-envelope me-2"></i>cafe@gmail.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end ">
+                <small class="fcolor">Open hours: Monday-Sunday 10:00AM-11:00PM</small>
+
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html"  class="navbar-brand ms-4 ms-lg-0">
+                <img  src="../Images/cafe-logo.png" id="logo" width="190px" alt="logo" >
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars primary-text"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="index.html">Home</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  id="active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customize.html">Customize</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="d-none d-xl-flex ms-2">
+                <a href="index.html #table-book" class="btn btn-primary res-btn ms-3">Book table
+                    <i class="fas fa-utensils icon ps-2"></i></a>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header3 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container animated slideInDown">
+            <div class="about-header">
+                <h1 class="display-3 mb-3 text-white text-center">Cafe Menu</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb mb-0 justify-content-center">
+                        <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item text-white" id="active" aria-current="page">Menu</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <div class="container-xxl py-5 menu">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title text-center primary-text wow fadeIn" data-wow-delay="0.2s> Our Cafe Menu </h5>
+                <h1 class="mb-5 second-heading wow fadeIn" data-wow-delay="0.1s">Most Popular Items</h1>
+            </div>
+            <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow fadein" data-wow-delay="0.1s">
+                    <li class="nav-item p-1">
+                        <a class="d-flex py-2 mx-1 primary-border2  bg-white active" data-bs-toggle="pill" href="#tab-1">
+                            <span class="menu-pills" style="width: 150px;">Starter</span>
+                        </a>
+                       
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="d-flex py-2 mx-1 primary-border2  bg-white" data-bs-toggle="pill" href="#tab-2">
+                            <span class="menu-pills" style=" width: 150px;">Signature Items</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="d-flex py-2 mx-2 primary-border2  bg-white"  data-bs-toggle="pill" href="#tab-3">
+                            <span class="menu-pills" style="width: 150px;">Main Course</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="d-flex py-2 mx-2 primary-border2 bg-white " data-bs-toggle="pill" href="#tab-4">
+                            <span class="menu-pills" style="width: 150px;">Drinks</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="d-flex py-2 mx-2 primary-border2  bg-white " data-bs-toggle="pill" href="#tab-5">
+                            <span class="menu-pills" style="width: 150px;">Desserts</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <!-- Menu 1 Staters -->
+                        <div class="row g-4">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid " src="../Images/item1.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Bruschetta</span>
+                                            <span class="txt6">$115</span>
+                                        </h5>
+                                        <p class="">Fresh tomatoes, basil, and mozzarella on toasted baguette slices.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item2.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Chicken Wings</span>
+                                            <span class="txt6">$185</span>
+                                        </h5>
+                                        <p class="">Crispy wings with your choice of BBQ, buffalo, or honey mustard sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item3.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Mozzarella Sticks</span>
+                                            <span class="txt6">$185</span>
+                                        </h5>
+                                        <p class="">Crispy breaded mozzarella served with marinara sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item4.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Fries</span>
+                                            <span class="txt6">$115</span>
+                                        </h5>
+                                        <p class="">Crispy baked potato wedges served with a savory dipping sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item5.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Chicken Satay</span>
+                                            <span class="txt6">$115</span>
+                                        </h5>
+                                        <p class="">Skewered grilled chicken served with a rich and creamy peanut sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item6.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Loaded Nachos</span>
+                                            <span class="txt6">$125</span>
+                                        </h5>
+                                        <p class="">Tortilla chips topped with melted cheese, sour cream, and guacamole.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item7.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Garlic Bread</span>
+                                            <span class="txt6">$150</span>
+                                        </h5>
+                                        <p class="">Toasted baguette slices with a rich garlic butter spread.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item8.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Appetizers</span>
+                                            <span class="txt6">$12.5</span>
+                                        </h5>
+                                        <p class="">Begin your meal with our appetizers, perfect for sharing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =========================================================================================== -->
+                    <!-- MENU 2 -->
+                    <div id="tab-2" class="tab-pane fade show p-0 ">
+                        <!-- Menu  2 Signatures -->
+                        <div class="row g-4">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid " src="../Images/item9.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">BreakFast</span>
+                                            <span class="txt6">$195.9</span>
+                                        </h5>
+                                        <p class="">Start your day right with our delicious breakfast.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item10.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Lunch</span>
+                                            <span class="txt6">$220.5</span>
+                                        </h5>
+                                        <p class="">Start your day right with our delicious Lunch.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item11.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Dinner</span>
+                                            <span class="txt6">$185</span>
+                                        </h5>
+                                        <p class="">Start your day right with our delicious Dinner.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item12.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Fast Food</span>
+                                            <span class="txt6">$125.15</span>
+                                        </h5>
+                                        <p class="">Delight in our classic fast food,delicious in every bite.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item13.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Seafood</span>
+                                            <span class="txt6">$610.85</span>
+                                        </h5>
+                                        <p class="">Delight in our exquisite seafood dishes, featuring the freshest flavors.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item14.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Diet Food</span>
+                                            <span class="txt6">$125</span>
+                                        </h5>
+                                        <p class="">Enjoy our wholesome diet-friendly dishes, crafted to be nutritious.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item15.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Korean Cuisine</span>
+                                            <span class="txt6">$900.50</span>
+                                        </h5>
+                                        <p class="">Enjoy vibrant flavors of our Korean cuisine, with ingredients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid" src="../Images/item16.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span class="tit10">Pasta & Noodles</span>
+                                            <span class="txt6">$12.5</span>
+                                        </h5>
+                                        <p class="">Savor our delicious pasta dishes, perfectly cooked noodles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- MENU 2 Ended -->
+  <!-- =========================================================================================== -->
+
+   <!-- MENU 3 STARTED -->
+
+   <div id="tab-3" class="tab-pane fade show p-0 ">
+    <!-- Menu 3 Main -->
+    <div class="row g-4">
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid " src="../Images/item17.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Signature Sandwiches</span>
+                        <span class="txt6">$195.9</span>
+                    </h5>
+                    <p class="">Unique creations crafted with ingredients for a taste.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item18.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Chicken Alfredo</span>
+                        <span class="txt6">$820.5</span>
+                    </h5>
+                    <p class=""> Fettuccine pasta tossed in Alfredo sauce with chicken.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item19.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Rice</span>
+                        <span class="txt6">$485</span>
+                    </h5>
+                    <p class="">Fluffy rice served with a choice of savory toppings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item20.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Spinach Pasta</span>
+                        <span class="txt6">$125.15</span>
+                    </h5>
+                    <p class="">Creamy pasta tossed with fresh spinach and parmesan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item21.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Panko Fish</span>
+                        <span class="txt6">$610.85</span>
+                    </h5>
+                    <p class="">Delight in our exquisite Panko Fish flavors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item22.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Truffle Pizza</span>
+                        <span class="txt6">$125</span>
+                    </h5>
+                    <p class="">Enjoy Juicy beef patty with truffle , melted cheese.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item23.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Smoky BBQ</span>
+                        <span class="txt6">$900.50</span>
+                    </h5>
+                    <p class=""> Tender ribs glazed with a rich, smoky BBQ sauce.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 img-fluid" src="../Images/item24.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                        <span class="tit10">Sushi</span>
+                        <span class="txt6">$12.5</span>
+                    </h5>
+                    <p class="">Spicy rice cakes in a sweet and savory sauce.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+       <!-- MENU 3 ENDEDD -->
+     <!-- =========================================================================================== -->
+      <!-- MENU 4 STARTED -->
+            <!-- =========================================================================================== -->
+            <div id="tab-4" class="tab-pane fade show p-0 ">
+                <!-- Menu  4 Drinks -->
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid " src="../Images/item25.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Cappuccino</span>
+                                    <span class="txt6">$25.9</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item26.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Latte</span>
+                                    <span class="txt6">$20.5</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item27.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Espresso</span>
+                                    <span class="txt6">$18.50</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item28.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Americano</span>
+                                    <span class="txt6">$13.15</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item29.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Boba Coffee</span>
+                                    <span class="txt6">$20.5o</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item30.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Hot Chocolate</span>
+                                    <span class="txt6">$19.5o</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item31.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10"> Smoothie</span>
+                                    <span class="txt6">$61.20</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item32.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Lemonade</span>
+                                    <span class="txt6">$17.80</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item33.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Milkshake</span>
+                                    <span class="txt6">$90.50</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item34.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Iced Matcha</span>
+                                    <span class="txt6">$12.5o</span>
+                                </h5>
+                                <p class="">A diverse selection of hot and cold drinks to satisfy every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu 4 ENDEDD -->
+             <!-- =========================================================================================== -->
+
+             <!-- Menu 5 Started -->
+             <div id="tab-5" class="tab-pane fade show p-0 ">
+                <!-- Menu 5 Desserts -->
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid " src="../Images/item35.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Cakes</span>
+                                    <span class="txt6">$195.9</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item36.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Brownies</span>
+                                    <span class="txt6">$820.5</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item37.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Cupcakes</span>
+                                    <span class="txt6">$485</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item38.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Waffles</span>
+                                    <span class="txt6">$125.15</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item39.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Cheesecake</span>
+                                    <span class="txt6">$610.85</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item40.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">donuts</span>
+                                    <span class="txt6">$125</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item41.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Ice Cream</span>
+                                    <span class="txt6">$90.50</span>
+                                </h5>
+                                <p class=""> Tender ribs glazed with a rich, smoky BBQ sauce.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid" src="../Images/item42.jpg" alt="" style="width: 80px; border-radius: 10px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span class="tit10">Cookies</span>
+                                    <span class="txt6">$12.5</span>
+                                </h5>
+                                <p class=""> Delightful array of sweet treats, from chocolate or fruity options.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu 5 ENDEDD -->
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--Footer about Page-->
+<div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.3s">
+    <div class="container pt-2">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4 main-head-footer">CONTACT US</h4>
+                <p class="mb-2 fcolor "><i class="fa fa-map-marker-alt me-3"></i>8th floor, 379 Hudson St, New York, NY 10018</p>
+                <p class="mb-2 fcolor"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2 fcolor"><i class="fa fa-envelope me-3"></i>cafe@gmail.com</p>
+            <br>
+
+<h4 class="mb-4 main-head-footer">OPENING TIMES</h4>
+      <p class="fcolor"> 09:30 AM – 11:00 PM <br>Every Day </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4 main-head-footer">Quick Links</h4>
+                <a class="btn btn-link" href="index.html">Home</a>
+                <a class="btn btn-link" href="about.html">About</a>
+                <a class="btn btn-link" href="menu.html">Menu</a>
+                <a class="btn btn-link" href="blog.html">Blog</a>
+                <a class="btn btn-link" href="customize.html">Customize</a>
+                <a class="btn btn-link" href="contact.html">Contact</a>
+                <a class="btn btn-link" href="detail.html">Detail</a>
+
+                
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class=" mb-4 main-head-footer"> ABOUT CAFE</h4>
+                  <p class="footer-para">Indulge in our warm ambiance and exceptional flavors, crafted just for you. Visit us to experience the perfect blend of comfort and culinary delight. Discover why Cafe is the favorite spot for coffee lovers and food enthusiasts.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class=" mb-4 main-head-footer">CAFE GALLERY</h4>
+                <div class="row g-2">
+            
+                    <div class="col-4 item-gallery-footer">
+                        <a data-lightbox="gallery-footer" href="../Images/insta-3.jpg">
+                        <img class="img-fluid  rounded p-1" src="../Images/insta-3.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a data-lightbox="gallery-footer" href="../Images/gallery-6.jpg">
+                        <img class="img-fluid  rounded p-1" src="../Images/gallery-6.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/blog-event.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid rounded p-1" src="../Images/blog-event.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/gallery-8.jpg" data-lightbox="gallery-footer">
+                            <img class="img-fluid rounded p-1" src="../Images/gallery-8.jpg" alt="Image"></a>
+                        </div>
+                        <div class="col-4 item-gallery-footer">
+                            
+                            <a href="../Images/fam-2.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid rounded p-1" src="../Images/fam-2.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/insta-5.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid rounded p-1" src="../Images/insta-5.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/deserts.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid rounded p-1" src="../Images/deserts.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/blog1.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid rounded p-1" src="../Images/blog1.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/fam-3.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid   p-1 " src="../Images/fam-3.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/insta-4.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid   p-1 " src="../Images/insta-4.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/insta-1.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid  p-1 " src="../Images/insta-1.jpg" alt="Image"></a>
+                    </div>
+                    <div class="col-4 item-gallery-footer">
+                        <a href="../Images/gallery-7.jpg" data-lightbox="gallery-footer">
+                        <img class="img-fluid   p-1 " src="../Images/gallery-7.jpg" alt="Image"></a>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Copyright part-->
+<div class="copyright wow fadeIn" data-wow-delay="0.3s">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <p>Copyrights © 2024 - <a href="index.html">Cafe</a>,  All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6 text-right col-md-12">
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.whatsApp.com/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>   </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- backtop arrow -->
+    <a href="#" class="btn btn-primary border-3 primary-border rounded-circle back-to-top"><i
+        class="text-white fa fa-arrow-up"></i></a>
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<LIBRARIES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="../lib/wow/wow.min.js"></script>
+<script src="../lib/easing/easing.min.js"></script>
+<script src="../lib/lightbox2/js/lightbox.min.js"></script>
+<script src="../lib/counterup/counterup.min.js"></script>
+<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../Javascript/main.js"></script>
+</body>
+
+</html>
+<!--  -->
